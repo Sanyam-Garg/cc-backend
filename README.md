@@ -37,7 +37,7 @@ class CourseA():
 * A google form will be floated wherein you will have to share the GitHub repository for the task. **Make sure the repository is public**.
 
 ## Timeline
-* We understand that the task might seem daunting at first, but once you understand the concepts of OOP, the remainder is only to develop logic that you seem fit!
+* We understand that the task might seem daunting at first, but once you understand the concepts of OOP, the remainder is only to develop logic that you see fit!
 * With that in mind, the deadline for the task is 12th Feb EOD (12:00 AM Midnight)
 
 ## Resources
