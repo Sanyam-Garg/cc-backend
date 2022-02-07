@@ -44,4 +44,6 @@ class CourseA():
 * [Learn Git and GitHub](https://youtu.be/nhNq2kIvi9s)
 * [Object Oriented Programming in Python](https://youtu.be/JeznW_7DlB0)
 
+> PS: Some submissions in the last task were not submitted in proper manner. Some wrote the code in the README.md file, some removed extensions from the program file. Please watch the Git resources, and submit the task in a proper format this time.
+
 ##### Feel free to ask any doubts related to the task in the whatsapp group!
