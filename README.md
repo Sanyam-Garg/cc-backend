@@ -1,30 +1,47 @@
-# Task 1: Fetching and Storing
-Hope you went through the python basic principles playlist shared earlier. In this task, you will be applying that knowledge and more to GET football competition data from an open API and storing the same in a CSV file.
+# Task 2: Degree Planner
+Congratulations for successfully completing Task 1! Hope you learnt alot during the process. The next task will be focused on testing your ability to develop efficient programming logic.
 
-## About the API
-The API you will be using is the [Football Data API](https://www.football-data.org/) 
-If you go through the API's documentation, you will find multiple _endpoints_ listed. However, you will be using the [Competetion Data](https://api.football-data.org/v2/competitions/) endpoint for this task.
-_You can read more about this endpoint in their documentation_
+## Introduction to Object Oriented Programming (OOP)
+* Object Oriented Programming is a popular way of writing code that not only helps make the code more readable, but also crisp and efficient.
+* In OOP, you create something called a **class** and define all the related functions and operations within the class itself. Take a look at the following example
+```
+class CourseA():
 
+    def attendClass(self):
+        pass
+    
+    def skipClass(self):
+        pass
+    
+    def dropCourse(self):
+        pass
+```
+* In the above code sample, you observe that all the functions defined are related to the class CourseA.
+> For a more comprehensive introduction, take a look at the resources section.
 ## About the task
-* Every single response returned by the endpoint has a field called `plan`, which contains the TIER of the competition listed. 
-* Your task is to create a python program that takes input the **tier** value from the user and then stores the corresponding competitions in a CSV file.
-* The following is the recommended format of storing the CSV file.
+* In this task, you will be creating a **Course Planner** using the principles of OOP.
+### Functionalities needed
+1. You should be able to add courses. 
+2. The courses to be added can either be predefined in the program from which the user has to choose, or they can be taken directly from the user . It's upto you :)
+3. The courses should have corresponding units with them, and one should be able to see the total units they have taken.
+4. There **must** be an option to add notes, Google Meet links or any related material for a particular course.
+5. You should be able to remove courses, notes, etc.
+6. Finally, there **must** be functions that the user can call to create/read/update/delete the notes related to a course, it's Google Meet links, etc.
 
-|id|Name|Area/Country|Available Seasons|Tier|
-|----|----|----|----|----|
-|6942|Coupe de Belgique|Belgium|4|TIER_THREE|
+### Further Details
+* You don't need to connect your program with any sort of a database, a stateless program will do.
+* Since all the data updated/stored in the program will be deleted once it exits, it is imperative that the program functions in an infinite loop, and only exits based on user input.
 
 ## Format of submission
 * You have to make a GitHub account (if you don't have one yet) and push all the code to a repository. _You can learn about Git and Github from the resources section below_
 * A google form will be floated wherein you will have to share the GitHub repository for the task. **Make sure the repository is public**.
 
-##  Timeline
-You have three days to complete the above task. In other words, the deadline of the task is 4 Feb EOD (12:00 AM at night)
+## Timeline
+* We understand that the task might seem daunting at first, but once you understand the concepts of OOP, the remainder is only to develop logic that you seem fit!
+* With that in mind, the deadline for the task is 12th Feb EOD (12:00 AM Midnight)
 
 ## Resources
 * [Learn Git and GitHub](https://youtu.be/nhNq2kIvi9s)
-* [What is JSON](https://www.youtube.com/watch?v=iiADhChRriM)
+* [Object Oriented Programming in Python](https://youtu.be/JeznW_7DlB0)
 
----
 ##### Feel free to ask any doubts related to the task in the whatsapp group!
